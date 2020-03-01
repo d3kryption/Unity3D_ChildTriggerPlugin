@@ -17,6 +17,7 @@ public class AIController : MonoBehaviour, iTriggerEnter
     	Debug.Log(col);
 	}
 }
+
 public class AIController : MonoBehaviour, iTriggerExit
 {
     public void TriggerExit(Collider col)
@@ -24,6 +25,7 @@ public class AIController : MonoBehaviour, iTriggerExit
     	Debug.Log(col);
 	}
 }
+
 public class AIController : MonoBehaviour, iTriggerEnter, iTriggerExit
 {
 	public void TriggerEnter(Collider col)
@@ -38,7 +40,9 @@ public class AIController : MonoBehaviour, iTriggerEnter, iTriggerExit
 }
 ```
 
+
 2) Drag the corresponding Trigger[TYPE]Message.cs script onto the child component you want to check for collider. E.g. your SoundDetectorGameObject.
+
 
 3) Drag your implimented script (AIController.cs) onto the Component variable on your child (SoundDetectorGameObject)
 
