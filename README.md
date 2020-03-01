@@ -18,15 +18,15 @@ public class AIController : MonoBehaviour, iTriggerEnter
 {
 	public void TriggerEnter(Collider col)
 	{
-    	Debug.Log(col);
+    		Debug.Log(col);
 	}
 }
 
 public class AIController : MonoBehaviour, iTriggerExit
 {
-    public void TriggerExit(Collider col)
+    	public void TriggerExit(Collider col)
 	{
-    	Debug.Log(col);
+    		Debug.Log(col);
 	}
 }
 
@@ -34,12 +34,12 @@ public class AIController : MonoBehaviour, iTriggerEnter, iTriggerExit
 {
 	public void TriggerEnter(Collider col)
 	{
-    	Debug.Log(col);
+    		Debug.Log(col);
 	}
 
-    public void TriggerExit(Collider col)
+    	public void TriggerExit(Collider col)
 	{
-    	Debug.Log(col);
+    		Debug.Log(col);
 	}
 }
 ```
