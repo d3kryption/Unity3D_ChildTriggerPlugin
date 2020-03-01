@@ -3,9 +3,13 @@ Plugin to control collider communication between child and parent scripts.
 
 # Scripts
 `iTriggerEnter.cs`
+
 `iTriggerExit.cs`
+
 `TriggerEnterMessage.cs`
+
 `TriggerExitMessage.cs`
+
 
 # Usage (in 3 steps!)
 1) Impliment any collider interfaces you need on the scipt that you require. (iTriggerEnter or iTriggerExit)
